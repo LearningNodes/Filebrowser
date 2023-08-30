@@ -1,0 +1,22 @@
+columns format version: 1
+20 columns:
+`name` String
+`domain` String
+`user_id` UInt64
+`session_id` UInt64
+`hostname` String
+`pathname` String
+`referrer` String
+`referrer_source` String
+`country_code` LowCardinality(FixedString(2))
+`screen_size` LowCardinality(String)
+`operating_system` LowCardinality(String)
+`browser` LowCardinality(String)
+`timestamp` DateTime
+`utm_medium` String
+`utm_source` String
+`utm_campaign` String
+`meta.key` Array(String)
+`meta.value` Array(String)
+`browser_version` LowCardinality(String)
+`operating_system_version` LowCardinality(String)

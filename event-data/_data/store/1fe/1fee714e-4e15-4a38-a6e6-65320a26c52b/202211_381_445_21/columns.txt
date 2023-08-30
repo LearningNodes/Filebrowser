@@ -1,0 +1,26 @@
+columns format version: 1
+24 columns:
+`session_id` UInt64
+`sign` Int8
+`domain` String
+`user_id` UInt64
+`hostname` String
+`is_bounce` UInt8
+`entry_page` String
+`exit_page` String
+`pageviews` Int32
+`events` Int32
+`duration` UInt32
+`referrer` String
+`referrer_source` String
+`country_code` LowCardinality(FixedString(2))
+`screen_size` LowCardinality(String)
+`operating_system` LowCardinality(String)
+`browser` LowCardinality(String)
+`start` DateTime
+`timestamp` DateTime
+`utm_medium` String
+`utm_source` String
+`utm_campaign` String
+`browser_version` LowCardinality(String)
+`operating_system_version` LowCardinality(String)
